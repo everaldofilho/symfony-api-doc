@@ -47,6 +47,22 @@ class UserController extends AbstractController
 
     /**
      * @Route("/", name="store", methods="POST")
+     * @SWG\Parameter(name="body", in="body", description="JSON Object", type="json",
+     *       @SWG\Schema(
+     *        type="object",   
+     *        @SWG\Property(type="string", property="user", example="admin"),
+     *        @SWG\Property(type="string", property="password", example="admin"),
+     *        @SWG\Property(
+     *             property="profiles",
+     *             type="array",
+     *             @SWG\Items(
+     *                 type="object",
+     *                 @SWG\Property(property="id", type="number"),
+     *                 @SWG\Property(property="description", type="string",  example="ADMIN"),
+     *             ),
+     *        ),   
+     *      )
+     * )
      */
     public function store()
     {
