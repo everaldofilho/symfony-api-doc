@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+    container_name: symfony-api-doc
+    volumes: 
+      - ./:/app
+    ports:
+      - 91:80
