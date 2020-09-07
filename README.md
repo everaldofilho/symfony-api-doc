@@ -15,5 +15,5 @@ Logo após isso a aplicação estará disponivel em http://localhost:91/api/doc
 
 Segue o link do passso a passo para configurar a documentação da api:
 
-https://medium.com/@everaldofilho/como-documentar-uma-api-no-symfony-fd5773ec7aa5
+[https://medium.com/@everaldofilho/como-documentar-uma-api-no-symfony-fd5773ec7aa5](https://medium.com/@everaldofilho/como-documentar-uma-api-no-symfony-fd5773ec7aa5)
 
