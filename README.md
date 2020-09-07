@@ -11,7 +11,7 @@ docker-compose up -d
 docker-compose exec app composer install
 ````
 
-Logo após isso a aplicação estará disponivel em http://localhost:91/api/doc
+Logo após isso a aplicação estará disponivel em [http://localhost:91/api/doc](http://localhost:91/api/doc)
 
 Segue o link do passso a passo para configurar a documentação da api:
 
